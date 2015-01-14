@@ -1,5 +1,23 @@
-#container {
-	font-family: Helvetica;
-	color: red;
-	text-decoration: none;
+#containerDiv {
+	width: 960px;
+}
+
+ .square {
+	display: inline-block;	
+	padding: 10px;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px; 
+	margin: 0 1.5px;
+}
+
+button {
+	border: 1px;
+	background-color: rgb(0, 136, 204);
+	color: white;
+	display: block;
+	padding: 10px;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	font: Arial;
 }
